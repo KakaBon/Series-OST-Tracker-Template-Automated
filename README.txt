@@ -4,7 +4,7 @@ Tool 中为 Template 工具，Example 中含泰剧《偿还 Payback the Series�
 
 一个通过 VBA 脚本和个别 Excel 菜单工具实现自动化的 Excel 表格 template 工具，有 sheet1 和 sheet2 交互处理数据，sheet1 作为负责“登记造册”的登记表，sheet2 作为负责“录入与统计”的条目库。
 
-使得扒全剧为10集的影视的全部 OSTs 更省力，减少手动输入、查找、复制粘贴和错误检查等工作。
+使得扒全剧为10集的影视剧的全部 OSTs 更省力，减少手动输入、查找、复制粘贴和错误检查等工作。
 
 这个工具有非常强的“量身打造”属性，除了作为 OTS 追踪列表，以后在不做任何适配改动的前提下，只适用于全10集的影视剧，并且按照表头严格要求数据具有 Episode、Timestamp、Title、Artist、Album、Note等信息，详见表工具。
 
@@ -28,7 +28,7 @@ Tool 中为 Template 工具，Example 中含泰剧《偿还 Payback the Series�
 
 如果 EP1、EP2、EP3 后 直接写 EP6，也会当作连续集数延伸出完整的EP1、EP2、EP3、EP4、EP5、EP6，不过其中 EP4、EP5 列会空着。
 
-新增宏按钮”btnEPstats“，使”曲单集出场次数数据是否显示“可选。按钮名称显示是”Hide EP stats“和”Show EP stats“，分别对应”当前单集数据已展开“和”当前单集数据已隐藏“状态以及功能”隐藏单集数据“和”展开单集数据“，初始化时调用展开 EP stats 函数，所以按钮默认的显示名称是 Hide EP stats。只有一次初始化，此后操作会被记住和同步，hide之后，无论是切换表单还是关闭再打开表，都不影响上一次操作后的状态，也就是单集数据是被隐藏了的，show同理。（02:49）
+新增宏按钮”btnEPstats“，使”曲单集出场次数数据是否显示“可选。按钮名称显示是”Hide EP stats“和”Show EP stats“，分别对应”当前单集数据已展开“和”当前单集数据已隐藏“状态以及功能”隐藏单集数据“和”展开单集数据“，初始化时调用展开 EP stats 函数，所以按钮默认的显示名称是 Hide EP stats。只有一次初始化，此后操作会被记住和同步，hide之后，无论是切换表单还是关闭再打开表，都不影响上一次操作后的状态，也就是单集数据是被隐藏了的，show同理。
 
 更名 10EP-Series OST Tracker Template-Automated 为 Series OST Tracker Template_Automated
 （08.08.2026）
